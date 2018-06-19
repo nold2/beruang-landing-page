@@ -8,6 +8,7 @@
     "start": "micro"
   },
   "dependencies": {
+    "jsdom": "^11.11.0",
     "micro": "latest"
   },
   "author": "",
