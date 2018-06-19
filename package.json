@@ -5,12 +5,25 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "micro"
+    "build": "babel src/index.js --out-file bundle/index-bundle.js",
+    "start": "parcel html/index.html",
+    "now": "micro"
+  },
+  "babel": {
+    "babelrc": false,
+    "presets": [
+      "env"
+    ]
   },
   "dependencies": {
     "jsdom": "^11.11.0",
     "micro": "latest"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
