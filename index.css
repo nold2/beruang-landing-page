@@ -1,15 +1,65 @@
+#intro{
+    width: 100vw;
+    height: 100vh;
+    margin-left: unset;
+}
 #subheading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 800;
-    background-color: #b0d236;
+    max-width: 100%;
+}
+#main-logo{
+    height: 20vh;
+    width: 40vw;
+}
+#intro-right{
+    padding-right:unset;
+}
+#main-pict{
+    height: 50vh;
+    width: 40.2vw;
+}
+
+
+#tahukah-kamu{
+    background-color: #B0D236;
     width: 100vw;
     height: 100vh;
 }
+#tahukah-kamu_bear{
+    height: 50vh;
+    width: 40vw;
+}
 
-#content{
-    background-color: aqua;
-    width: 100vw;
+#bubble-chat{
+    position: relative;
+    height:50vh;
+    width: 40vw;
+}
+
+#tahukah-kamu-chat_image{
+    height: 50vh;
+    width: 40vw;
+    position: absolute;
+}
+
+#tahukah-kamu-chat_text{
+    position: absolute;
+    z-index: 100;
+    padding: 3rem 6rem;
+}
+
+
+#tentang-permainan{
     height: 100vh;
+    width: 100vw;
+    background-color: #B0D236;
+
+}
+#tentang-permainan_text-content{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#tentang-permainan_text-content_paragraph{
+    padding: 0 30%;
 }
