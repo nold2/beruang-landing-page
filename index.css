@@ -61,5 +61,37 @@
 }
 
 #tentang-permainan_text-content_paragraph{
+    width: 100vw;
     padding: 0 30%;
+}
+
+#line-of-bears{
+    width: 100%;
+    display: inline-flex;
+    background-color: #B0D236;
+    justify-content: space-around;
+}
+
+#kodi-on-gamebar{
+    height: 15vh;
+    width: 10vw;
+}
+
+#hani-on-gamebar{
+    height: 15vh;
+    width: 10vw;
+}
+
+#taka-on-gamebar{
+    height: 15vh;
+    width: 10vw;
+}
+
+#muna-on-gamebar{
+    height: 15vh;
+    width: 10vw;
+}
+
+#gamebar-section-three{
+    width: 100%;
 }
