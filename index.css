@@ -1,21 +1,37 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%,
+}
 #intro{
     width: 100vw;
     height: 100vh;
     margin-left: unset;
 }
+#intro-left{
+    padding-left: 50px;
+    padding-right: 30px;
+}
 #subheading{
     max-width: 100%;
 }
 #main-logo{
-    height: 20vh;
-    width: 40vw;
+    height: auto;
+    width: 70%;
 }
 #intro-right{
     padding-right:unset;
 }
 #main-pict{
-    height: 50vh;
-    width: 40.2vw;
+    height: auto;
+    width: 75%;
+}
+
+#main-subheading{
+    margin-top: 20px;
+    margin-bottom: 16px;
+    color: #753C19;
+    font-size: 1.75em;
+    font-weight: bold;
 }
 
 
@@ -48,15 +64,19 @@
 }
 
 
+
+
+
+
+/*tentang permainan*/
 #tentang-permainan{
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
     background-color: #B0D236;
-
 }
 #tentang-permainan_text-content{
     width: 100%;
-    height: 100%;
+    height: 75%;
     text-align: center;
 }
 
@@ -67,31 +87,36 @@
 
 #line-of-bears{
     width: 100%;
-    display: inline-flex;
     background-color: #B0D236;
-    justify-content: space-around;
 }
 
 #kodi-on-gamebar{
-    height: 15vh;
-    width: 10vw;
+    height: 8vh;
+    width: 8vw;
 }
 
 #hani-on-gamebar{
-    height: 15vh;
-    width: 10vw;
+    height: 8vh;
+    width: 8vw;
 }
 
 #taka-on-gamebar{
-    height: 15vh;
-    width: 10vw;
+    height: 8vh;
+    width: 8vw;
 }
 
 #muna-on-gamebar{
-    height: 15vh;
-    width: 10vw;
+    height: 8vh;
+    width: 8vw;
 }
 
 #gamebar-section-three{
-    width: 100%;
+    width: 100vw;
+}
+
+
+#footer{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ffffff;
 }
