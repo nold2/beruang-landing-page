@@ -2,31 +2,160 @@ body {
     font-family: 'Quicksand', sans-serif;
     font-size: 100%,
 }
-#intro{
+
+#intro {
     width: 100vw;
     height: 100vh;
     margin-left: unset;
 }
-#intro-left{
+
+#intro-left {
     padding-left: 50px;
     padding-right: 30px;
 }
-#subheading{
+
+#subheading {
     max-width: 100%;
 }
-#main-logo{
+
+#main-logo {
     height: auto;
     width: 70%;
 }
-#intro-right{
-    padding-right:unset;
+
+#intro-right {
+    padding-right: unset;
 }
-#main-pict{
+
+#main-pict {
     height: auto;
     width: 75%;
 }
 
-#main-subheading{
+#main-subheading {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    color: #753C19;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+#tahukah-kamu {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url("https://drive.google.com/uc?id=1KMt8uoo8gyX0RyuX9cUjkSJaBGrxy4HX");
+}
+
+#tahukah-kamu-chat_container {
+    z-index: 100;
+    height: 100vh;
+    padding: 3rem 6rem;
+}
+#tahukah-kamu-title{
+    margin-top: 20px;
+    margin-bottom: 16px;
+    color: #B0D236;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+
+/*tentang permainan*/
+#tentang-permainan {
+    height: 100vh;
+    width: 100vw;
+    background-color: #B0D236;
+}
+
+#tentang-permainan_text-content {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#tentang-permainan_text-content_paragraph {
+    width: 100vw;
+    padding: 0 30%;
+}
+
+#tentang-permainan-title {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    color: #627B1B;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+#line-of-bears {
+    width: 50%;
+    padding-top: 10px;
+}
+
+.kodi-on-gamebar {
+    height: 20vh;
+    width: auto;
+}
+.kodi-on-gamebar :hover{
+    display: none;
+}
+
+.kodi-on-gamebar_buble {
+    height: 20vh;
+    width: auto;
+}
+
+#hani-on-gamebar {
+    height: 20vh;
+    width: auto;
+}
+
+#taka-on-gamebar {
+    height: 20vh;
+    bottom: 0;
+    width: auto;
+}
+
+#muna-on-gamebar {
+    height: 20vh;
+    width: auto;
+}
+
+#gamebar-and-bears {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#gamebar-and-bears_container {
+    background-color: #B0D236;
+    width: 100%;
+}
+
+#gamebar-section-three {
+    width: 100vw;
+}
+
+
+
+#footer {
+    width: 100vw;
+    height: 100vh;
+    margin-left: unset;
+}
+#footer-left {
+    margin-top: 50px;
+    padding-left: unset;
+}
+#footer-right{
+    margin-top: 50px;
+    padding-right: unset;
+}
+#footer-image{
+    height: auto;
+    width: 85%;
+}
+#footer-subheading{
     margin-top: 20px;
     margin-bottom: 16px;
     color: #753C19;
@@ -35,88 +164,56 @@ body {
 }
 
 
-#tahukah-kamu{
-    background-color: #B0D236;
-    width: 100vw;
-    height: 100vh;
-}
-#tahukah-kamu_bear{
-    height: 50vh;
-    width: 40vw;
+#buttons-container{
+    width: 41%;
 }
 
-#bubble-chat{
-    position: relative;
-    height:50vh;
-    width: 40vw;
+.button-content{
+    height: 24px;
 }
 
-#tahukah-kamu-chat_image{
-    height: 50vh;
-    width: 40vw;
-    position: absolute;
-}
+.btn-outline-primary{
+    color: #753C19;
+    border-color: #753C19;
+    font-weight: bold;
+    text-align: start;
 
-#tahukah-kamu-chat_text{
-    position: absolute;
-    z-index: 100;
-    padding: 3rem 6rem;
-}
-
-
-
-
-
-
-/*tentang permainan*/
-#tentang-permainan{
-    height: 75vh;
-    width: 100vw;
-    background-color: #B0D236;
-}
-#tentang-permainan_text-content{
+    border-radius: 10px;
     width: 100%;
+    margin-top: 15px;
+}
+.btn-outline-primary:hover{
+    color: #ffffff;
+    background-color: #753C19;
+    border-color: #753C19;
+    box-shadow: #753C19;
+}
+
+.btn:active,
+.btn:focus,
+.btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.download-logo{
+    width: auto;
     height: 75%;
-    text-align: center;
 }
 
-#tentang-permainan_text-content_paragraph{
-    width: 100vw;
-    padding: 0 30%;
-}
 
-#line-of-bears{
+.copyright{
+    bottom: 0;
     width: 100%;
-    background-color: #B0D236;
+    margin-top: auto;
+    margin-bottom: 15px;
 }
-
-#kodi-on-gamebar{
-    height: 8vh;
-    width: 8vw;
+#bca-logo{
+    height: 4vh;
+    width: auto;
 }
-
-#hani-on-gamebar{
-    height: 8vh;
-    width: 8vw;
-}
-
-#taka-on-gamebar{
-    height: 8vh;
-    width: 8vw;
-}
-
-#muna-on-gamebar{
-    height: 8vh;
-    width: 8vw;
-}
-
-#gamebar-section-three{
-    width: 100vw;
-}
-
-
-#footer{
-    height: 100vh;
-    width: 100vw;
-    background-color: #ffffff;
+.copyright-text{
+    margin: 10px;
 }
