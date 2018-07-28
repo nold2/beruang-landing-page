@@ -52,14 +52,14 @@ body {
     height: 100vh;
     padding: 3rem 6rem;
 }
-#tahukah-kamu-title{
+
+#tahukah-kamu-title {
     margin-top: 20px;
     margin-bottom: 16px;
     color: #B0D236;
     font-size: 1.75em;
     font-weight: bold;
 }
-
 
 /*tentang permainan*/
 #tentang-permainan {
@@ -96,7 +96,8 @@ body {
     height: 20vh;
     width: auto;
 }
-.kodi-on-gamebar :hover{
+
+.kodi-on-gamebar :hover {
     display: none;
 }
 
@@ -136,26 +137,28 @@ body {
     width: 100vw;
 }
 
-
-
 #footer {
     width: 100vw;
     height: 100vh;
     margin-left: unset;
 }
+
 #footer-left {
     margin-top: 50px;
     padding-left: unset;
 }
-#footer-right{
+
+#footer-right {
     margin-top: 50px;
     padding-right: unset;
 }
-#footer-image{
+
+#footer-image {
     height: auto;
     width: 85%;
 }
-#footer-subheading{
+
+#footer-subheading {
     margin-top: 20px;
     margin-bottom: 16px;
     color: #753C19;
@@ -163,30 +166,46 @@ body {
     font-weight: bold;
 }
 
-
-#buttons-container{
+#buttons-container {
     width: 41%;
 }
 
-.button-content{
-    height: 24px;
+.btn {
+    padding: 0;
 }
 
-.btn-outline-primary{
-    color: #753C19;
-    border-color: #753C19;
-    font-weight: bold;
-    text-align: start;
+.button-content_instruksi {
+    height: 100%;
+    width: 100%;
+}
 
-    border-radius: 10px;
+.button-content_instruksi:hover {
+    content: url('https://drive.google.com/uc?id=1uNQuUKq_jYCtJTbexWbe2b72neiYHYhv');
+    height: 100%;
+    width: 100%;
+}
+
+.button-content_panduan {
+    height: 100%;
+    width: 100%;
+}
+
+.button-content_panduan:hover {
+    content: url('https://drive.google.com/uc?id=1qzAwlXvgzeVaRxdHA15nciQWufE9oQ8x');
+    height: 100%;
+    width: 100%;
+}
+
+.btn-outline-primary {
+    border: none;
     width: 100%;
     margin-top: 15px;
 }
-.btn-outline-primary:hover{
-    color: #ffffff;
-    background-color: #753C19;
-    border-color: #753C19;
-    box-shadow: #753C19;
+
+.btn-outline-primary:hover {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: transparent;
 }
 
 .btn:active,
@@ -198,22 +217,29 @@ body {
     box-shadow: none;
 }
 
-.download-logo{
+.download-logo {
     width: auto;
     height: 75%;
 }
 
+.download-logo:hover {
+    content: url('https://drive.google.com/uc?id=1eMA1m60AkD07rw2TZVrjpEJR5rXzkhTl');
+    width: auto;
+    height: 75%;
+}
 
-.copyright{
+.copyright {
     bottom: 0;
     width: 100%;
     margin-top: auto;
     margin-bottom: 15px;
 }
-#bca-logo{
+
+#bca-logo {
     height: 4vh;
     width: auto;
 }
-.copyright-text{
+
+.copyright-text {
     margin: 10px;
 }
