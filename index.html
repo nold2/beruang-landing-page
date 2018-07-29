@@ -17,6 +17,23 @@
             integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
             crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jq-vertical-dot-nav.js"></script>
+<!--    this line of javascript is only for the top page and it has to be the first-->
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 800, function(){
+              window.location.hash = hash;
+            });
+          }
+        });
+      });
+    </script>
+<!--    this is for the vertical nav-->
     <script type="text/javascript">
       $(document).ready(function () {
         $('section').verticalDotNav({
@@ -44,6 +61,14 @@
              alt="illustration"
              id="main-pict"/>
     </div>
+    <a class="copyright" href="#tahukah-kamu">
+        <div class="d-flex justify-content-center">
+            <img
+                    src="https://drive.google.com/uc?id=1gQI7WTzEsrQwphgIMegBksRPpt6MO04F"
+                    id="arrow"
+            />
+        </div>
+    </a>
 </section>
 <section id="tahukah-kamu">
     <div id="tahukah-kamu-chat_container" class="container d-flex flex-column justify-content-center">

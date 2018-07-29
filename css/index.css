@@ -10,6 +10,7 @@ body {
 }
 
 #intro-left {
+    margin-top: 50px;
     padding-left: 50px;
     padding-right: 30px;
 }
@@ -24,6 +25,7 @@ body {
 }
 
 #intro-right {
+    margin-top: 50px;
     padding-right: unset;
     z-index: 1000;
 }
@@ -39,6 +41,11 @@ body {
     color: #753C19;
     font-size: 1.75em;
     font-weight: bold;
+}
+
+#arrow{
+    height: 5vh;
+    width: auto;
 }
 
 #tahukah-kamu {
