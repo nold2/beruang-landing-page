@@ -24,8 +24,7 @@
     margin-left:10px;
     cursor:pointer;
 }
-
-
-
  
-
+.vertical-dot-nav .dot-brown{
+    border-color: #753C19 !important;
+}

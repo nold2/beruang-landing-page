@@ -6,9 +6,17 @@
     dot_size: 10,
     dot_style: "circle",
     dot_color: "#fff",
-    nav_color: "#666"
+    nav_color: "transparent"
   };
 
+  var white_background_options = {
+    align : "right",
+    scroll_speed : 1000,
+    dot_size: 10,
+    dot_style: "circle",
+    dot_color: "#753C19",
+    nav_color: "transparent"
+  };
 
   $.fn.verticalDotNav = function(options) {
 
@@ -36,7 +44,6 @@
         offset : container_offset,
         ref : container
       });
-
       nav += "<li class='dot' data-target='section-"+index+"'></li>";
     });
 
@@ -49,7 +56,6 @@
 
     nav_height = jq_nav.height();
     nav_pos_top = (window_height/2) - (nav_height/2);
-
     dot_styles["width"] = default_options.dot_size + "px";
     dot_styles["height"] = dot_styles["width"];
     dot_styles["border-color"] = default_options.dot_color;

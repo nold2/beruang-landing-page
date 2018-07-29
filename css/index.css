@@ -25,6 +25,7 @@ body {
 
 #intro-right {
     padding-right: unset;
+    z-index: 1000;
 }
 
 #main-pict {
@@ -44,13 +45,17 @@ body {
     height: 100vh;
     width: 100vw;
     background-size: cover;
-    background-image: url("https://drive.google.com/uc?id=1KMt8uoo8gyX0RyuX9cUjkSJaBGrxy4HX");
+    background-image: url("https://drive.google.com/uc?id=1nqxUYUROEVTNE-Ey3TAC_JsGL6f-Beu_");
 }
 
 #tahukah-kamu-chat_container {
     z-index: 100;
     height: 100vh;
     padding: 3rem 6rem;
+}
+
+#tahukah-kamu-paragraph{
+    margin-bottom: 100px;
 }
 
 #tahukah-kamu-title {
