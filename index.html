@@ -9,10 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand:b" rel="stylesheet">
     <!--required stylesheet for plugin-->
     <link rel="stylesheet" href="css/jq-vertical-dot-navigation.css">
-
-<!--    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
             integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
             crossorigin="anonymous"></script>
@@ -21,9 +18,9 @@
             crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jq-vertical-dot-nav.js"></script>
     <script type="text/javascript">
-      $(document).ready(function(){
+      $(document).ready(function () {
         $('section').verticalDotNav({
-          align : "right"
+          align: "right"
         });
       })
     </script>
@@ -91,14 +88,22 @@
         <div id="gamebar-and-bears_container">
             <div class="d-flex justify-content-center">
                 <div id="line-of-bears" class="d-flex justify-content-around">
-                    <img src="https://drive.google.com/uc?id=1w1Z3FPIXYr7DGi09-kre_ax-CHsaa5Kd"
-                         class="kodi-on-gamebar"/>
-                    <img src="https://drive.google.com/uc?id=1QA5lZ0GI8x1ec0L92w5UV-mEeb5dH0ai"
-                         id="hani-on-gamebar"/>
-                    <img src="https://drive.google.com/uc?id=17AMq51y9DU8WXx7wPWUoHrHcGWfSUO7-"
-                         id="taka-on-gamebar"/>
-                    <img src="https://drive.google.com/uc?id=1gfBwCmNlHHa0Tja6nDa0t7KUQ5Wo9Pj3"
-                         id="muna-on-gamebar"/>
+                    <button id="kodi-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#kodi-modal">
+                        <img src="https://drive.google.com/uc?id=1w1Z3FPIXYr7DGi09-kre_ax-CHsaa5Kd"
+                             class="kodi-on-gamebar"/>
+                    </button>
+                    <button id="hani-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#hani-modal">
+                        <img src="https://drive.google.com/uc?id=1QA5lZ0GI8x1ec0L92w5UV-mEeb5dH0ai"
+                             id="hani-on-gamebar"/>
+                    </button>
+                    <button id="taka-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#taka-modal">
+                        <img src="https://drive.google.com/uc?id=17AMq51y9DU8WXx7wPWUoHrHcGWfSUO7-"
+                             id="taka-on-gamebar"/>
+                    </button>
+                    <button id="muna-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#muna-modal">
+                        <img src="https://drive.google.com/uc?id=1gfBwCmNlHHa0Tja6nDa0t7KUQ5Wo9Pj3"
+                             id="muna-on-gamebar"/>
+                    </button>
                 </div>
             </div>
             <img src="https://drive.google.com/uc?id=1vmSpXouvfk1IN0mbxOvav4jFhJEIgkll"
@@ -166,6 +171,162 @@
         </div>
     </div>
 </section>
+
+<div class="modal fade" id="kodi-modal" tabindex="-1" role="dialog"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lgx"
+         role="document"
+         style="
+         max-width: 65vw;
+         max-height: 80vh;
+         overflow-y: auto;"
+    >
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body d-flex justify-content-around align-items-center">
+                <img
+                        src="https://drive.google.com/uc?id=1V7uXkjMaaN_x3E2biA1r_FZftbYXGyuY"
+                        class="bear-modal"
+                >
+                <div class="col-md-6">
+                    <img
+                            src="https://drive.google.com/uc?id=1CY31a8alrWyVlsplvVcoGT0WqytBfEui"
+                            class="bear-name"
+                    >
+                    <div class="text-paragraph">
+                       <strong>Kodi adalah beruang cokelat kodiak</strong> yang<br/>
+                        ramah dan banyak bicara. Ia juga memiliki<br/>
+                        rasa ingin tahu yang kuat. Kodi sangat<br/>
+                        bersemangat dalam lomba food hunt ini<br/>
+                        untuk mengelilingi hutan dan mengumpulkan<br/>
+                        makanan bersama teman-temannya.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="hani-modal" tabindex="-1" role="dialog"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lgx"
+         role="document"
+         style="
+         max-width: 65vw;
+         max-height: 80vh;
+         overflow-y: auto;"
+    >
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body d-flex justify-content-around align-items-center">
+                <img
+                        src="https://drive.google.com/uc?id=1gZqAFPsb3FDsBodAI5exAEfBrxckpJ_p"
+                        class="bear-modal"
+                >
+                <div class="col-md-6">
+                    <img
+                            src="https://drive.google.com/uc?id=19WVvBVjFnqj949ymCxYrG7Iru9O_r_6C"
+                            class="bear-name"
+                    >
+                    <div class="text-paragraph">
+                        <strong>Hani adalah beruang madu</strong> yang rapi dan<br/>
+                        teliti dalam kesehariannya. Ia juga serius<br/>
+                        dan sering terlihat diam, namun sebenarnya<br/>
+                        banyak yang dipikirkan olehnya.<br/>
+                        Dalam lomba food hunt ini, Hani berusaha<br/>
+                        untuk menjalaninya dengan baik.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="taka-modal" tabindex="-1" role="dialog"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lgx"
+         role="document"
+         style="
+         max-width: 65vw;
+         max-height: 80vh;
+         overflow-y: auto;"
+    >
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body d-flex justify-content-around align-items-center">
+                <img
+                        src="https://drive.google.com/uc?id=1jgFF5h89kIjWlmq8Pg06tvVNMVornYFU"
+                        class="bear-modal"
+                >
+                <div class="col-md-6">
+                    <img
+                            src="https://drive.google.com/uc?id=1SdAiqxvI2QmtF34BvqfynJpBtN4qOR8M"
+                            class="bear-name"
+                    >
+                    <div class="text-paragraph">
+                        <strong>Taka adalah beruang berkacamata</strong> yang<br/>
+                        mempunyai sifat seorang pemimpin. Ia sangat<br/>
+                        mandiri dan mampu menjaga yang lain. Mungkin<br/>
+                        itu juga karena Taka adalah beruang yang paling<br/>
+                        tua di antara mereka berempat. Ia percaya diri<br/>
+                        akan menang dalam lomba food hunt ini.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="muna-modal" tabindex="-1" role="dialog"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lgx"
+         role="document"
+         style="
+         max-width: 65vw;
+         max-height: 80vh;
+         overflow-y: auto;"
+    >
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body d-flex justify-content-around align-items-center">
+                <img
+                        src="https://drive.google.com/uc?id=1DVnYMJUSTXK0oM0XHJ1PX9ZKkCDlvQs8"
+                        class="bear-modal"
+                >
+                <div class="col-md-6">
+                    <img
+                            src="https://drive.google.com/uc?id=1n7YE5Gdq9RKtLijfrU8wFay8XyWseO7Y"
+                            class="bear-name"
+                    >
+                    <div class="text-paragraph">
+                        <strong>Muna adalah beruang bulan</strong> yang sabar,<br/>
+                        dan biasanya paling tenang di antara yang<br/>
+                        lain dalam situasi apapun. Ia mudah berteman<br/>
+                        dan tidak suka konflik. Ia sangat berharap<br/>
+                        bahwa lomba food hunt ini akan berjalan<br/>
+                        dengan mulus dan damai.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 </body>
 <link rel="stylesheet" type="text/css" href="css/index.css"/>

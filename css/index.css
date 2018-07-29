@@ -54,7 +54,7 @@ body {
     padding: 3rem 6rem;
 }
 
-#tahukah-kamu-paragraph{
+#tahukah-kamu-paragraph {
     margin-bottom: 100px;
 }
 
@@ -97,23 +97,56 @@ body {
     padding-top: 10px;
 }
 
+#kodi-set{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
 .kodi-on-gamebar {
     height: 20vh;
     width: auto;
 }
 
-.kodi-on-gamebar :hover {
-    display: none;
-}
-
-.kodi-on-gamebar_buble {
+.kodi-on-gamebar:hover {
     height: 20vh;
     width: auto;
+    content: url('https://drive.google.com/uc?id=1r6xnebYVrzlk6Lrh9rvFf4S04BbfdFT3')
+}
+
+
+
+#hani-set {
+    border: 0;
+    padding: 0;
+    background-color: transparent;
 }
 
 #hani-on-gamebar {
     height: 20vh;
     width: auto;
+}
+#hani-bear-modal{
+    height: 35vh;
+    width: auto;
+    margin-left: 40px;
+}
+
+#hani-on-gamebar:hover {
+    height: 20vh;
+    width: auto;
+    content: url('https://drive.google.com/uc?id=1JTJwhNwaEHXY6_kxJPZGbjChTzdBAaUL')
+}
+
+#hani-bear-name{
+    height: 8vh;
+    width: auto;
+}
+
+#taka-set{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
 }
 
 #taka-on-gamebar {
@@ -122,9 +155,27 @@ body {
     width: auto;
 }
 
+#taka-on-gamebar:hover {
+    height: 20vh;
+    width: auto;
+    content: url('https://drive.google.com/uc?id=1asqYvCzD4hFrbvyB2E_pr9twZxLjf81n')
+}
+
+#muna-set{
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
 #muna-on-gamebar {
     height: 20vh;
     width: auto;
+}
+
+#muna-on-gamebar:hover {
+    height: 20vh;
+    width: auto;
+    content: url('https://drive.google.com/uc?id=1RksjB76i0DrAirjPysNoZEHSF3HJdGck')
 }
 
 #gamebar-and-bears {
@@ -247,4 +298,24 @@ body {
 
 .copyright-text {
     margin: 10px;
+}
+
+.text-paragraph{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.modal-body{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.bear-modal{
+    height: 35vh;
+    width: auto;
+    margin-left: 40px;
+}
+.bear-name{
+    height: 8vh;
+    width: auto;
 }

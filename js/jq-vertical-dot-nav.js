@@ -5,7 +5,7 @@
     scroll_speed : 1000,
     dot_size: 10,
     dot_style: "circle",
-    dot_color: "#fff",
+    dot_color: "#753C19",
     nav_color: "transparent"
   };
 
