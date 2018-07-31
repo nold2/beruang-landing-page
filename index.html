@@ -17,23 +17,23 @@
             integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
             crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jq-vertical-dot-nav.js"></script>
-<!--    this line of javascript is only for the top page and it has to be the first-->
+    <!--    this line of javascript is only for the top page and it has to be the first-->
     <script type="text/javascript">
-      $(document).ready(function(){
-        $("a").on('click', function(event) {
+      $(document).ready(function () {
+        $("a").on('click', function (event) {
           if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
             $('html, body').animate({
               scrollTop: $(hash).offset().top
-            }, 800, function(){
+            }, 800, function () {
               window.location.hash = hash;
             });
           }
         });
       });
     </script>
-<!--    this is for the vertical nav-->
+    <!--    this is for the vertical nav-->
     <script type="text/javascript">
       $(document).ready(function () {
         $('section').verticalDotNav({
@@ -109,32 +109,40 @@
             </p>
         </main>
     </div>
-    <div id="gamebar-and-bears">
-        <div id="gamebar-and-bears_container">
-            <div class="d-flex justify-content-center">
-                <div id="line-of-bears" class="d-flex justify-content-around">
-                    <button id="kodi-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#kodi-modal">
-                        <img src="https://drive.google.com/uc?id=1w1Z3FPIXYr7DGi09-kre_ax-CHsaa5Kd"
-                             class="kodi-on-gamebar"/>
-                    </button>
-                    <button id="hani-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#hani-modal">
-                        <img src="https://drive.google.com/uc?id=1QA5lZ0GI8x1ec0L92w5UV-mEeb5dH0ai"
-                             id="hani-on-gamebar"/>
-                    </button>
-                    <button id="taka-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#taka-modal">
-                        <img src="https://drive.google.com/uc?id=17AMq51y9DU8WXx7wPWUoHrHcGWfSUO7-"
-                             id="taka-on-gamebar"/>
-                    </button>
-                    <button id="muna-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#muna-modal">
-                        <img src="https://drive.google.com/uc?id=1gfBwCmNlHHa0Tja6nDa0t7KUQ5Wo9Pj3"
-                             id="muna-on-gamebar"/>
-                    </button>
-                </div>
-            </div>
-            <img src="https://drive.google.com/uc?id=1vmSpXouvfk1IN0mbxOvav4jFhJEIgkll"
-                 alt="gamebar"
-                 id="gamebar-section-three"/>
+    <div id="gamebar-and-bears" class="d-flex">
+        <div id="line-of-bears" class="d-inline-flex justify-content-around">
+            <button id="kodi-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#kodi-modal">
+                <img src="https://drive.google.com/uc?id=1uxMxJurhlNxgILkwwqU1bZQiUmtvAdvj"
+                     class="chat_bubble"
+                />
+                <img src="https://drive.google.com/uc?id=1w1Z3FPIXYr7DGi09-kre_ax-CHsaa5Kd"
+                     class="kodi-on-gamebar"/>
+            </button>
+            <button id="hani-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#hani-modal">
+                <img src="https://drive.google.com/uc?id=1FXz2x7LAn5TbmkKrpy1--xQ9_SYHzSwW"
+                     class="chat_bubble"
+                />
+                <img src="https://drive.google.com/uc?id=1QA5lZ0GI8x1ec0L92w5UV-mEeb5dH0ai"
+                     id="hani-on-gamebar"/>
+            </button>
+            <button id="taka-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#taka-modal">
+                <img src="https://drive.google.com/uc?id=1ZFkgPuqca7s61erNhvIkyOmnweaWQ2X3"
+                     class="chat_bubble"
+                />
+                <img src="https://drive.google.com/uc?id=17AMq51y9DU8WXx7wPWUoHrHcGWfSUO7-"
+                     id="taka-on-gamebar"/>
+            </button>
+            <button id="muna-set" class="btn btn-outline-primary" data-toggle="modal" data-target="#muna-modal">
+                <img src="https://drive.google.com/uc?id=1TH95ENCEZfN8Aeys3WM6aav6ESJ3rBT_"
+                     class="chat_bubble"
+                />
+                <img src="https://drive.google.com/uc?id=1gfBwCmNlHHa0Tja6nDa0t7KUQ5Wo9Pj3"
+                     id="muna-on-gamebar"/>
+            </button>
         </div>
+        <img src="https://drive.google.com/uc?id=1vmSpXouvfk1IN0mbxOvav4jFhJEIgkll"
+             alt="gamebar"
+             id="gamebar-section-three"/>
     </div>
 </section>
 
@@ -223,7 +231,7 @@
                             class="bear-name"
                     >
                     <div class="text-paragraph">
-                       <strong>Kodi adalah beruang cokelat kodiak</strong> yang<br/>
+                        <strong>Kodi adalah beruang cokelat kodiak</strong> yang<br/>
                         ramah dan banyak bicara. Ia juga memiliki<br/>
                         rasa ingin tahu yang kuat. Kodi sangat<br/>
                         bersemangat dalam lomba food hunt ini<br/>

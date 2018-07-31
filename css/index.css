@@ -10,7 +10,7 @@ body {
 }
 
 #intro-left {
-    margin-top: 50px;
+    margin-top: 90px;
     padding-left: 50px;
     padding-right: 30px;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 #intro-right {
-    margin-top: 50px;
+    margin-top: 90px;
     padding-right: unset;
     z-index: 1000;
 }
@@ -44,7 +44,7 @@ body {
 }
 
 #arrow{
-    height: 5vh;
+    height: 3vh;
     width: auto;
 }
 
@@ -82,7 +82,7 @@ body {
 
 #tentang-permainan_text-content {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
 }
 
@@ -100,13 +100,19 @@ body {
 }
 
 #line-of-bears {
-    width: 50%;
+    width: 100vw;
     padding-top: 10px;
+}
+
+.chat_bubble{
+    display: none;
 }
 
 #kodi-set{
     border: 0;
     padding: 0;
+    position: absolute;
+    bottom: 110px;
     background-color: transparent;
 }
 
@@ -121,11 +127,18 @@ body {
     content: url('https://drive.google.com/uc?id=1r6xnebYVrzlk6Lrh9rvFf4S04BbfdFT3')
 }
 
+#kodi-set:hover .chat_bubble{
+    display: block;
+    width: 10vw;
+    height: auto;
+}
 
 
 #hani-set {
     border: 0;
     padding: 0;
+    position: absolute;
+    bottom: 110px;
     background-color: transparent;
 }
 
@@ -150,9 +163,19 @@ body {
     width: auto;
 }
 
+#hani-set:hover .chat_bubble{
+    display: block;
+    width: 10vw;
+    height: auto;
+}
+
+
+
 #taka-set{
     border: 0;
     padding: 0;
+    position: absolute;
+    bottom: 110px;
     background-color: transparent;
 }
 
@@ -168,9 +191,19 @@ body {
     content: url('https://drive.google.com/uc?id=1asqYvCzD4hFrbvyB2E_pr9twZxLjf81n')
 }
 
+#taka-set:hover .chat_bubble{
+    display: block;
+    width: 10vw;
+    height: auto;
+}
+
+
+
 #muna-set{
     border: 0;
     padding: 0;
+    position: absolute;
+    bottom: 110px;
     background-color: transparent;
 }
 
@@ -185,18 +218,25 @@ body {
     content: url('https://drive.google.com/uc?id=1RksjB76i0DrAirjPysNoZEHSF3HJdGck')
 }
 
-#gamebar-and-bears {
-    position: relative;
-    bottom: 0;
-    width: 100%;
+#muna-set:hover .chat_bubble{
+    display: block;
+    width: 10vw;
+    height: auto;
 }
 
-#gamebar-and-bears_container {
+
+
+#gamebar-and-bears {
+    position: relative;
+    margin-top: auto;
+    width: 100vw;
+    height: auto;
+    max-height: 20vh;
     background-color: #B0D236;
-    width: 100%;
 }
 
 #gamebar-section-three {
+    position:relative;
     width: 100vw;
 }
 
@@ -295,7 +335,7 @@ body {
     bottom: 0;
     width: 100%;
     margin-top: auto;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 #bca-logo {
